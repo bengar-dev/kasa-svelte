@@ -1,6 +1,5 @@
 <script lang="ts">
-	import Arrow from '@/assets/arrow.svg';
-	import { onMount } from 'svelte';
+	import Arrow from '@/assets/kasa_arrow.png';
 
 	export let pictures: string[];
 	export let pic: string;

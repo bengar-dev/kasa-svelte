@@ -11,6 +11,7 @@
 
 <style>
 	footer {
+		width: 100%;
 		margin-top: 43px;
 		background-color: black;
 		color: white;

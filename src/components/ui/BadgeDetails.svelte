@@ -16,4 +16,8 @@
 		font-size: 14px;
 		text-align: center;
 	}
+
+	span:hover {
+		filter: brightness(85%);
+	}
 </style>
