@@ -21,7 +21,9 @@
 	</div>
 	<div class="details-banner-right">
 		<AutorDetails name={estateData?.host?.name} picture={estateData?.host?.picture} />
-		<RatingDetails rating={estateData?.rating} />
+		<div class="details-content-rating">
+			<RatingDetails rating={estateData?.rating} />
+		</div>
 	</div>
 </section>
 
@@ -44,6 +46,12 @@
 	}
 
 	.estate-tags {
+		display: flex;
+		gap: 10px;
+	}
+
+	.details-content-rating {
+		margin-top: 24px;
 		display: flex;
 		gap: 10px;
 	}
